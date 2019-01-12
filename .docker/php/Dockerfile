@@ -5,6 +5,10 @@ RUN apt-get update \
     build-essential locales acl mailutils wget zip unzip \
     gnupg gnupg1 gnupg2
 
+RUN apt-get update && \
+    apt-get install -y \
+        zlib1g-dev
+
 COPY php.ini /etc/php/7.2.3/php.ini
 COPY php-fpm-pool.conf /etc/php/7.2.3/pool.d/www.conf
 
