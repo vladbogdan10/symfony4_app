@@ -18,10 +18,10 @@ Encore
      * and one CSS file (e.g. app.css) if you JavaScript imports CSS.
      */
     .addEntry('app', [
-        './node_module/jquery/dist/jquery.slim.js',
-        './node_module/popper.js/dist/popper.min.js',
+        './node_modules/jquery/dist/jquery.slim.js',
+        './node_modules/popper.js/dist/popper.min.js',
         './node_modules/bootstrap/dist/js/bootstrap.min.js',
-        './node_module/holderjs/holder.min.js'
+        './node_modules/holderjs/holder.min.js'
     ])
     .addStyleEntry('css/app', ['./node_modules/bootstrap/dist/css/bootstrap.min.css'])
     //.addEntry('page1', './assets/js/page1.js')
