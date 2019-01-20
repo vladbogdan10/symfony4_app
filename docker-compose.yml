@@ -21,7 +21,7 @@ services:
         ports:
             - 8080:80
         links:
-            - mysql
+            - mysql:db
 
     webserver:
       image: nginx:alpine
